@@ -9,8 +9,15 @@ import Foundation
 
 
 struct Response: Codable {
+    
     let results: MyResult
-    let status: String
+    let sta: String
+    
+    private enum CodingKeys: String, CodingKey {
+        case results
+        case sta = "status"
+    }
+
 }
 
 struct MyResult: Codable {
@@ -25,3 +32,4 @@ struct MyResult: Codable {
     let astronomical_twilight_begin: String
     let astronomical_twilight_end: String
 }
+

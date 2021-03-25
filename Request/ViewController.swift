@@ -25,14 +25,13 @@ class ViewController: UIViewController {
             do {
                 let decoder = JSONDecoder()
                 result = try decoder.decode(Response.self, from: data)
-                print(result)
             } catch {
                 print("Failed: \(error.localizedDescription)")
             }
             guard let final = result else {
                 return
             }
-            print(final.status)
+        print(final.sta)
             print(final.results.sunset)
             print(final.results.sunrise)
         })

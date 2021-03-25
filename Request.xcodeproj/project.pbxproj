@@ -58,7 +58,6 @@
 		85184A90260B2D7800309342 /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				85EE7F49260C6C640064947A /* Model */,
 				85184A91260B2D7800309342 /* AppDelegate.swift */,
 				85184A93260B2D7800309342 /* SceneDelegate.swift */,
 				85184A95260B2D7800309342 /* ViewController.swift */,
@@ -66,6 +65,7 @@
 				85184A9A260B2D7B00309342 /* Assets.xcassets */,
 				85184A9C260B2D7B00309342 /* LaunchScreen.storyboard */,
 				85184A9F260B2D7B00309342 /* Info.plist */,
+				85EE7F49260C6C640064947A /* Model */,
 			);
 			path = Request;
 			sourceTree = "<group>";
